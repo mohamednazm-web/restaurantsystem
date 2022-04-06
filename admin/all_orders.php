@@ -137,12 +137,12 @@ session_start();
 																				?>
 																				<?php
 																					echo ' <tr>
-                                                                                                <td>'.$rows['o_id'].'</td>
 																					            <td>'.$rows['username'].'</td>
 																								<td>'.$rows['title'].'</td>
 																								<td>'.$rows['quantity'].'</td>
 																								<td>₹'.$rows['price'].'</td>
-																								<td>'.$rows['address'].'</td>';
+																								<td>'.$rows['address'].'</td>
+                                                                                                <td>'.$rows['status'].'</td>';
 																								?>
 																								<?php 
 																			$status=$rows['status'];
