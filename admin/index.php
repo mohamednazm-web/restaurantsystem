@@ -55,7 +55,6 @@ if(isset($_POST['submit']))
   </div>
 </div>
 <div class="form">
-  <div class="thumbnail"><img src="images/manager.png"/></div>
   <span style="color:red;"><?php echo $message; ?></span>
    <span style="color:green;"><?php echo $success; ?></span>
   <form class="login-form" action="index.php" method="post">
