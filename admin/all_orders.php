@@ -140,7 +140,7 @@ session_start();
 																					            <td>'.$rows['username'].'</td>
 																								<td>'.$rows['title'].'</td>
 																								<td>'.$rows['quantity'].'</td>
-																								<td>₹'.$rows['price'].'</td>
+																								<td>IQD '.$rows['price'].'</td>
 																								<td>'.$rows['address'].'</td>
                                                                                                 <td>'.$rows['status'].'</td>';
 																								?>
