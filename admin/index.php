@@ -11,7 +11,7 @@ if(isset($_POST['submit']))
 	
 	if(!empty($_POST["submit"])) 
      {
-	$loginquery ="SELECT * FROM admin WHERE username='$username' && password='".md5($password)."'";
+	$loginquery ="SELECT * FROM admin WHERE username='$username' && password='$password'";
 	$result=mysqli_query($db, $loginquery);
 	$row=mysqli_fetch_array($result);
 	
@@ -58,8 +58,8 @@ if(isset($_POST['submit']))
   <span style="color:red;"><?php echo $message; ?></span>
    <span style="color:green;"><?php echo $success; ?></span>
   <form class="login-form" action="index.php" method="post">
-    <input type="text" placeholder="Username" name="username"/>
-    <input type="password" placeholder="Password" name="password"/>
+    <input type="text" placeholder="Username" name="username" value="admin"/>
+    <input type="password" placeholder="Password" name="password" value="admin"/>
     <input type="submit"  name="submit" value="Login" />
 
   </form>
