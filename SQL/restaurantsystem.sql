@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 05, 2022 at 10:54 PM
+-- Generation Time: Apr 07, 2022 at 10:12 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.11
 
@@ -41,7 +41,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`adm_id`, `username`, `password`, `email`, `code`, `date`) VALUES
-(1, 'admin', '0192023a7bbd73250516f069df18b500', 'admin@gmail.com', '', '2022-04-05 10:00:43');
+(1, 'admin', 'admin', 'admin@gmail.com', '', '2022-04-07 19:51:51');
 
 -- --------------------------------------------------------
 
